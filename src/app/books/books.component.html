@@ -1,0 +1,25 @@
+<div class="container">
+<ng-container *ngFor=" let book of books ">
+    <article class="article">
+
+        <section class="img-section">
+            <img src="/assets/bookImg.jpg">
+        </section>
+
+        <section class="info-section">
+            <span class="main">
+            <p class="title">{{book.title}}</p>
+           <i class="fa-regular fa-heart" (click)="addToFavourites(book)" [ngClass]="{'red': book.isLiked}" ></i>
+        </span>
+
+            <span class="description">
+
+            <span class="author">{{book.author}}</span>
+            <span class="price">Price: {{book.price}}$</span>
+
+        </span>
+        </section>
+    </article>
+</ng-container>
+</div>
+

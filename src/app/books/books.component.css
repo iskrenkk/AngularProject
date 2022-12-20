@@ -1,0 +1,73 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.article{
+    border: 1px solid black;
+    border-radius: 5%;
+    margin: 36px 18px;
+    overflow: hidden;
+    background-color: antiquewhite;
+}
+
+.info-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-regular{
+    font-size: 24px;
+    padding-bottom: 18px;
+    margin-right: 12px;
+}
+
+
+.title{
+    text-align: center;
+    color: rgb(41, 39, 39);
+    font-size: 26px;
+    margin-top: 8px;
+    margin-left: 12px;
+}
+
+.description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.author{
+    font-size: 20px;
+    padding-left: 12px;
+    padding-bottom: 12px;
+}
+
+.price{
+    font-size: 18px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+}
+
+.red{
+    color: red;
+    
+}
+
+
+
+
+
+
+
